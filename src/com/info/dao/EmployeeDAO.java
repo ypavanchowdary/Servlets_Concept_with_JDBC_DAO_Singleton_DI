@@ -34,7 +34,7 @@ public class EmployeeDAO {
 								
 			result = pStatement.executeUpdate();
 			
-			
+			connection.close();
 			
 			
 			
